@@ -1,4 +1,6 @@
 # firebase-proyecto-jesus}
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+import { getFirestore } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
 const firebaseConfig = {
   apiKey: "TU_API_KEY",
   authDomain: "TU_DOMINIO.firebaseapp.com",
